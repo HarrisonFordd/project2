@@ -60,6 +60,10 @@ body {
 	margin: 0 auto;
 }
 
+.header-nav__menu {
+	border: none;
+}
+
 .page-title {
 	position: relative;
 	margin-top: 200px;
@@ -98,12 +102,224 @@ body {
 	background: url(../img/content-btn.png) no-repeat 50% 50%;
 }
 
+/* create
+=============*/
 
+.create-wrap {
+	background: url(../img/create-wrap.png) no-repeat 200px 50px;
+}
 
+.create {
+	min-height: 580px;
+	margin-top: 180px;
+	background: url(../img/create.png) no-repeat 700px 0;
+}
 
+.text-wrap {
+	width: 516px;
+}
 
+.create__title {
+	margin: 0;
+}
 
+.create__subtitle {
+	margin: 0;
+	margin-bottom: 60px;
+	font: 700 16px/16px 'Nunito Sans', sans-serif;
+	text-transform: uppercase;
+}
 
+.create__text {
+	margin-left: 52px;
+	margin-bottom: 45px;
+}
+
+/* ideas
+=============*/
+.ideas-wrap {
+	margin-top: 330px;
+	background: url(../img/ideas-title.png) no-repeat 170px 50px;
+}
+
+.ideas {
+	min-height: 890px;
+	background: url(../img/ideas.png) no-repeat 700px 150px;
+}
+
+.ideas__title {
+
+}
+
+.ideas__subtitle {
+	margin-left: 208px;
+	font: 400 14px/20px 'Nunito Sans', sans-serif;
+}
+
+.ideas-content__wrap {
+	display: flex;
+	justify-content: space-between;
+	width: 775px;
+	margin-left: 100px;
+}
+
+.ideas-content__left,
+.ideas-content__right {
+	width: 360px;
+}
+
+.blog {
+	display: block;
+	width: 143px;
+	padding: 15px 34px;
+	margin-top: 60px;
+	border: 1px solid #e4e4e4;
+	color: #d85454;
+	text-decoration: none;
+}
+
+.blog:hover,
+.blog:focus {
+	background-color: #e4e4e4;
+}
+
+.blog:active {
+	color: #000;
+	box-shadow: inset 0 0 3px 5px #aeacac;
+}
+
+/* ideas
+==========*/
+
+.portfolio {
+	margin-top: 330px;
+	background: url(../img/portfolio.png) no-repeat 180px 50px;
+}
+
+.portfolio__list {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	margin-top: 130px;
+}
+
+.portfolio__item {
+	width: 375px;
+	height: 260px;
+}
+
+.portfolio__item:first-child {
+	padding-left: 52px;
+	padding-top: 15px;
+	border: 1px solid #f0f0f0;
+}
+
+.portfolio__subtitle {
+	font: 400 36px/36px 'Playfair Display', serif;
+}
+
+.portfolio__text {
+	font: 400 14px/24px 'Nunito Sans', sans-serif;
+}
+
+.visit_portfolio {
+	position: absolute;
+	top: 308px;
+	color: #d22425;
+	font: bold 14px/14px 'Nunito Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+/* contact
+============*/
+
+.contact {
+	min-height: 710px;
+	margin-top: 380px;
+	background: url(../img/contact.png) no-repeat;
+	border-bottom: 1px solid #f3f3f3; 
+}
+
+.contact__title {
+	line-height: 60px;
+}
+
+.contact__text {
+	width: 300px;
+	font: 400 14px/24px 'Nunito Sans', sans-serif;
+}
+
+.form {
+	display: flex;
+	justify-content: space-between;
+	width: 1032px;
+	height: 330px;
+	margin-left: 140px;
+	margin-top: 70px;
+}
+
+.form__left {
+	width: 400px;
+}
+
+.form__right {
+	width: 560px;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 16px;
+	font: 400 17px/28px 'Nunito Sans', sans-serif;
+	border: none;
+	border-bottom: 1px solid #4c4c4c;
+}
+
+input[id="message"] {
+	margin-top: 120px;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 130px;
+	height: 50px;
+	margin-left: 430px;
+	margin-top: 60px;
+	background-color: #d22425;
+	font: 400 16px/22px 'Nunito Sans', sans-serif;
+	color: #fff;
+	border: none;
+}
+
+.form__label {
+	margin-left: 20px;
+}
+
+textarea {
+	width: 562px;
+	font: 400 16px/22px 'Nunito Sans', sans-serif;
+	border: none;
+}
+
+/* footer
+============*/
+
+.page-footer {
+	height: 301px;
+	padding-top: 193px;
+	margin-top: -133px;
+	background: url(../img/footer.png) no-repeat;
+}
+
+.footer-btn {
+	display: block;
+	width: 20px;
+	height: 18px;
+	margin: 0 auto;
+	background: url(../img/footer-btn.png) no-repeat;
+	border: none;
+}
 
 
 
